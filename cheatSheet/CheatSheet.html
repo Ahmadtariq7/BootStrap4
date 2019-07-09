@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>
+        BootStrap Cheat Sheet
+    </title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- 18. Jumbotron-->
+    <div class="jumbotron text-center">
+        <div class="container">
+            <h1>Welcome to BootStrap Cheet Sheet</h1>
+            <P>Here you can find all hat you can do with Bootstrap4. Kepp in mind, you have to
+                be expert of HTML and CSS for this. Good Luck :)
+            </P>
+            <a href="#" class="btn btn-primary">Contact Us</a>
+        </div>
+    </div>
+
+    <!-- 1. Typography-->
+    <h2 class="text-center">Typography</h2>
+    <div class="container">
+        <h1 class="page-header">Hello World! <small>Secondary Text</small></h1>
+        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Placeat nostrum ea possimus voluptatum provident.</p>
+        <p><mark>Lorem ipsum dolor sit amet consectetur adipisicing elit.</mark>
+            <del>Placeat nostrum ea possimus voluptatum provident.</del> <u>Vel quisquam</u> facere
+            illum corporis laboriosam eius non odio inventore, doloremque, ratione
+            explicabo provident dolorem ullam.</p>
+        <hr>
+        <!-- 2. Alignment & Transformation -->
+        <h2 class="text-center">Alignment&Transformation</h2>
+        <p class="text-left text-lowercase">Left Aligned Text.</p>
+        <p class="text-center text-uppercase">Center Aligned Text.</p>
+        <p class="text-right text-capitalize">Right Aligned Text.</p>
+        <p class="text-justify">Justified Aligned Text.</p>
+        <p class="text-nowrap">No Wrap Text.</p>
+        <hr>
+        <!-- 3. Quick Floats -->
+        <h2 class="text-center">Quick Floats</h2>
+        <span class="float-right">text is float as mentioned in class</span>
+        <span class="float-left">text is float as mentioned in class</span>
+        <!-- Clear floats(for hr command) -->
+        <div class="clearfix"></div>
+        <hr>
+        <!-- 4. Block Quotes -->
+        <h2 class="text-center">Block Quotes</h2>
+        <blockquote class="blockquote">
+            <p>You so fucking precious when you smile.</p>
+            <footer>Quote by <cite title="Ahmad tariq">Ahmad Tariq</cite></footer>
+        </blockquote>
+        <hr>
+        <blockquote class="blockquote-reverse">
+            <p>Better to be a thinker than to be a talker :).</p>
+            <footer>Quote by <cite title="Ahmad tariq">Ahmad Tariq</cite></footer>
+        </blockquote>
+        <hr>
+        <!-- 5. Lists -->
+        <h2 class="text-center">Lists</h2>
+        <ul>
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Beer</li>
+            <li>Water</li>
+        </ul>
+
+        <ul class="list-unstyled">
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Beer</li>
+            <li>Water</li>
+        </ul>
+
+        <ul class="list-inline">
+            <li class="list-inline-item">Coffee</li>
+            <li class="list-inline-item">Tea</li>
+            <li class="list-inline-item">Beer</li>
+            <li class="list-inline-item">Water</li>
+        </ul>
+        <hr>
+        <!-- 6. Add CODE -->
+        <h2 class="text-center">Add CODE</h2>
+        <code>&lt;h1&gt;Headong Text&lt;/h1&gt;</code>
+        <br>
+        Change Directory with <kbd>cd</kbd>
+        <br>
+        To Edit settings, press <kbd><kbd>ctrl</kbd> + <kbd>,</kbd></kbd>
+        <hr>
+        <!-- 7. contextual  Colors -->
+        <h2 class="text-center">Contextual Colors</h2>
+        <p class="text-primary">Hello World</p> <!-- Blue color-->
+        <p class="text-success">Hello World</p> <!-- Green color-->
+        <p class="text-info">Hello World</p> <!-- Light Blue color-->
+        <p class="text-warning">Hello World</p> <!-- yellow color-->
+        <p class="text-danger">Hello World</p> <!-- Red color-->
+        <p class="text-muted">Hello World</p> <!-- grey color-->
+        <hr>
+        <!-- 7.1. contextual  Background-Colors -->
+        <h2 class="text-center">Contextual Background-Colors</h2>
+        <p class="bg-primary">Hello World</p> <!-- Blue color-->
+        <p class="bg-success">Hello World</p> <!-- Green color-->
+        <p class="bg-info">Hello World</p> <!-- Light Blue color-->
+        <p class="bg-warning">Hello World</p> <!-- yellow color-->
+        <p class="bg-danger">Hello World</p> <!-- Red color-->
+        <p class="bg-muted">Hello World</p> <!-- grey color (hahaha doesn't exist-->
+    </div>
+    <hr>
+
+    <!-- 8. Buttons (for this let us open new container-->
+    <div class="container">
+        <!-- 8.1. Simple buttons-->
+        <h2 class="text-center">Simple Buttons</h2>
+        <button type="button" class="btn btn-default">Button</button>
+        <a href="#" class="btn btn-default" role="button">Link</a>
+        <input type="submit" class="btn btn-default" value="Submit">
+        <hr>
+        <!-- 8.2. Contextual buttons-->
+        <h2 class="text-center">Contextual Buttons</h2>
+        <button class="btn btn-default">Default</button>
+        <button class="btn btn-primary">Primary</button>
+        <button class="btn btn-success">Success</button> <!-- mainly used for posting button-->
+        <button class="btn btn-info">Info</button>
+        <button class="btn btn-warning">Warning</button>
+        <button class="btn btn-danger">Danger</button> <!-- used for deleting..-->
+        <button class="bt btn-link">Link</button>
+        <hr> <!-- Line break-->
+        <!-- 8.3. Sizes for button-->
+        <h2 class="text-center">Button Sizes</h2>
+        <button class="btn btn-default btn-lg">Large Button</button>
+        <button class="btn btn-primary btn-sm">Small Button</button>
+        <button class="btn btn-default btn-xs">Extra Small</button>
+        <button class="btn btn-default" Disabled="disabled">Disabled</button>
+        <hr>
+        <!-- 8.4. Outline buttons (see the difference) -->
+        <h2 class="text-center">Outline Buttons</h2>
+        <button class="btn btn-outline-primary">Primary</button>
+        <button class="btn btn-outline-success">Success</button> <!-- mainly used for posting button-->
+        <button class="btn btn-outline-info">Info</button>
+        <button class="btn btn-outline-warning">Warning</button>
+        <button class="btn btn-outline-danger">Danger</button> <!-- used for deleting..-->
+        <button class="bt btn-outline-link">Link</button>
+    </div>
+    <hr>
+    <!-- 9. Forms-->
+    <h2 class="text-center">Forms</h2>
+    <div class="container">
+        <form>
+            <div class="form-group">
+                <label>Name</label>
+                <input type="text" class="form-control" placeholder="Add Name">
+            </div>
+
+            <div class="form-group">
+                <label>Email</label>
+                <input type="email" class="form-control" placeholder="Your Email Address">
+            </div>
+
+            <div class="form-group">
+                <label>Message</label>
+                <textarea class="form-control" placeholder="Add Name"></textarea>
+            </div>
+
+            <div class="form-group">
+                <label>Gender</label>
+                <select class="form-control">
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                    <option value="Other">Other</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label>Upload File</label>
+                <input type="file">
+                <p class="help-block">Only png and jps are allowed</p>
+            </div>
+
+            <div class="form-group">
+                <label>
+                    <input type="checkbox"> Check me Out
+                </label>
+            </div>
+
+            <button type="submit" class="btn btn-success">Submit</button>
+        </form>
+        <hr>
+        <h2 class="text-center">Inline Forms</h2>
+        <!-- 9.1. Inline forms -->
+        <form class="form-inline">
+            <div class="form-group">
+                <label>Email </label>
+                <input type="Email" class="form-control" placeholder="Your Email">
+            </div>
+            <div class="form-group">
+                <label> Password</label>
+                <input type="password" class="form-control" placeholder="Password(must be 8-24 letters">
+            </div>
+            <div class="form-group">
+                <label>
+                    <input type="checkbox"> Remember Me
+                </label>
+                <button type="submit" class="btn btn-primary">Login</button>
+            </div>
+        </form>
+    </div>
+    <hr>
+    <!-- 10. Tables -->
+    <h2 class="text-center">Tables</h2>
+    <div class="container">
+        <table class="table table-striped table-bordered table-hover table-sm">
+            <!-- see the difference with & without table class-->
+            <tr>
+                <!-- we can add contextual too-->
+                <th class="table-danger">First Name </th>
+                <th class="table-danger">Last Name </th>
+                <th class="table-danger">Age </th>
+            </tr>
+            <tr>
+                <td class="table-primary">Ahmad</td>
+                <td class="table-success">Tariq</td>
+                <td class="table-warning">21</td>
+            </tr>
+            <tr>
+                <td class="table-primary">Sarmad</td>
+                <td class="table-success">Ali</td>
+                <td class="table-warning">20</td>
+            </tr>
+            <tr>
+                <td class="table-primary">Daies</td>
+                <td class="table-success">Ul Waqar</td>
+                <td class="table-warning">21</td>
+            </tr>
+            <tr>
+                <td class="table-primary">Bilal</td>
+                <td class="table-success">Elahi</td>
+                <td class="table-warning">20</td>
+            </tr>
+            <tr>
+                <td class="table-primary">Robhoam</td>
+                <td class="table-success">Amin</td>
+                <td class="table-warning">19</td>
+            </tr>
+        </table>
+    </div>
+    <hr>
+    <!-- 11. List Groups-->
+    <div class="container">
+        <h2 class="text-center">List Groups</h2>
+        <ul class="list-group">
+            <li class="list-group-item">Coffee</li>
+            <li class="list-group-item">Tea</li>
+            <li class="list-group-item">Beer</li>
+            <li class="list-group-item">Water</li>
+        </ul>
+        <br>
+        <!-- 11.2. Menu-->
+        <h2 class="text-center">Menu type list</h2>
+        <div class="list-group">
+            <a href="#" class="list-group-item active">Coffee</a> <!-- see it will be active-->
+            <a href="#" class="list-group-item disabled">Tea</a> <!-- for disable-->
+            <a href="#" class="list-group-item list-group-item-danger">Beer</a> <!-- for contextual-->
+            <a href="#" class="list-group-item list-group-item-primary">Water</a>
+        </div>
+    </div>
+    <hr>
+    <!-- 12. Panels -->
+    <h2 class="text-center">Panels</h2>
+    <div class="container">
+        <a href="https://getbootstrap.com/docs/4.3/migration/#panels" target="_block">Link</a>
+        <!-- link of Doccumentation-->
+        <br>
+        <div class="card">
+            <div class="card-header">
+                <h3 class="card-title">Panel Title</h3>
+            </div>
+            <div class="card-body">
+                Panel Content
+            </div>
+            <div class="card-footer">Panel footer</div>
+        </div>
+        <br>
+        <div class="card bg-warning">
+            <!-- for contextual-->
+            <div class="card-header">
+                <h3 class="card-title">Panel Title</h3>
+            </div>
+            <div class="card-body">
+                Panel Content
+            </div>
+            <div class="card-footer">Panel footer</div>
+        </div>
+        <br>
+        <!-- 12.1. Wella -->
+        <h2 class="text-center">Wells</h2>
+        <div class="well">Hello World</div>
+        <div class="well well-lg">Hello World</div>
+        <div class="well well-sm">Hello World</div>
+        <h2>There are no such well in boottrap4.. but way is this for previous verisons</h2>
+    </div>
+    <hr>
+    <!-- 13. Alerts -->
+    <h2 class="text-center">Alerts</h2>
+    <div class="container">
+        <div class="alert alert-success" role="alert">A Success Alert</div>
+        <div class="alert alert-info" role="alert">A Info Alert</div>
+        <div class="alert alert-warning" role="alert">A Warning Alert</div>
+        <div class="alert alert-danger" role="alert">A Danger Alert</div>
+        <!-- 13.1 Dismissed Alerts -->
+        <div class="alert alert-warning alert-dismissible" role="alert">
+            <button type="button" class="close" data-dismiss="alert"><span>&times;</span></button>
+            You can close this alert
+        </div>
+        <!-- 13.2. Alerts with links-->
+        <h2 class="text-center">Alerts With Links</h2>
+        <div class="alert alert-primary" role="alert">
+            A simple primary alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+        </div>
+    </div>
+    <hr>
+    <!-- 14. Progress Bars -->
+    <h2 class="text-center">Progress bars</h2>
+    <a href="https://getbootstrap.com/docs/4.1/components/progress/" target="_unblock">Link</a>
+    <!-- 14.1. SIMPLE bars-->
+    <div class="progress">
+        <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+    </div>
+    <br>
+    <div class="progress">
+        <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"
+            style="width: 50%">50%</div>
+    </div>
+    <br>
+    <div class="progress">
+        <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"
+            style="width: 100%">100%</div>
+    </div>
+    <br>
+    <!-- 14.2. Contextual Bars-->
+    <h2 class="text-center">Contextual Progress bars</h2>
+    <div class="progress">
+        <div class="progress-bar bg-success" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"
+            style="width: 20%">20%</div>
+    </div>
+    <br>
+    <div class="progress">
+        <div class="progress-bar bg-info" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"
+            style="width: 50%">50%</div>
+    </div>
+    <br>
+    <div class="progress">
+        <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"
+            style="width: 100%">100%</div>
+    </div>
+    <br>
+    <!-- 14.3. Multipe Bars-->
+    <h2 class="text-center">Multiple Progress bars</h2>
+    <div class="progress">
+        <div class="progress-bar" role="progressbar" style="width: 15%" aria-valuenow="15" aria-valuemin="0"
+            aria-valuemax="100"></div>
+        <div class="progress-bar bg-success" role="progressbar" style="width: 30%" aria-valuenow="30" aria-valuemin="0"
+            aria-valuemax="100"></div>
+        <div class="progress-bar bg-info" role="progressbar" style="width: 20%" aria-valuenow="20" aria-valuemin="0"
+            aria-valuemax="100"></div>
+    </div>
+    <br>
+    <!-- 14.4. Striped Bars -->
+    <h2 class="text-center">Striped Progress bars</h2>
+    <div class="progress">
+        <div class="progress-bar progress-bar-striped bg-success" role="progressbar" aria-valuenow="0" aria-valuemin="0"
+            aria-valuemax="100" style="width: 20%">20%</div>
+    </div>
+    <br>
+    <div class="progress">
+        <div class="progress-bar progress-bar-striped bg-info" role="progressbar" aria-valuenow="0" aria-valuemin="0"
+            aria-valuemax="100" style="width: 50%">50%</div>
+    </div>
+    <br>
+    <div class="progress">
+        <div class="progress-bar progress-bar-striped bg-danger" role="progressbar" aria-valuenow="0" aria-valuemin="0"
+            aria-valuemax="100" style="width: 100%">100%</div>
+    </div>
+    <br>
+    <!-- 14.5. Animated Bars-->
+    <h2 class="text-center">Animated Progress bars</h2>
+    <div class="progress">
+        <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar"
+            aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 20%">20%</div>
+    </div>
+    <br>
+    <div class="progress">
+        <div class="progress-bar progress-bar-striped progress-bar-animated bg-info" role="progressbar"
+            aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 50%">50%</div>
+    </div>
+    <br>
+    <div class="progress">
+        <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger" role="progressbar"
+            aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 100%">100%</div>
+    </div>
+    <hr>
+    <!-- 15. Labels(Badges) -->
+    <h2 class="text-center">Labels</h2>
+    <div class="container">
+        <!-- labels and badges are consolidated in BS4.3.. so that's all..-->
+        <span class="badge badge-default">Default</span> <!-- use label via badge, its only the way-->
+        <span class="badge badge-pill">Primary</span>
+        <span class="badge badge-secondary">Success</span>
+        <span class="badge badge-Danger">Danger</span>
+        <br>
+        <!-- 15.1. Proper badge-->
+        <h2 class="text-center">Badges(proper ones</h2>
+        <a href="#">Inbox<span class="badge">50</span></a>
+        <br>
+        <!-- 15.2 Button with badge -->
+        <h2 class="text-center">Button & Batch</h2>
+        <button class="btn btn-primary" type="button">
+            Message <span class="badge">2</span>
+        </button>
+    </div>
+    <hr>
+    <!-- 16. Images -->
+    <h2 class="text-center">Images</h2>
+    <div class="container">
+        <img class="img-thumbnail" src="https://www.fesliyanstudios.com/tagpictures/7.jpg"><br>
+        <!-- below two don't work for BS4.3-->
+        <img class="img-rouded" src="https://www.fesliyanstudios.com/tagpictures/7.jpg"><br>
+        <img class="img-circle" src="https://www.fesliyanstudios.com/tagpictures/7.jpg">
+    </div>
+    <hr>
+    <!-- 17. Grids-->
+    <h2 class="text-center">Grids</h2>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-sm-8">
+                <!-- md(meduium screen) & sm(view kept same for all devices)-->
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, dolorum amet eaque assumenda
+                    voluptates, repellendus eos laborum in hic ipsa nostrum. Et consequatur officiis sed? Perspiciatis
+                    facilis atque molestiae voluptatum.</p>
+            </div>
+            <div class="col-md-4 col-sm-4">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, dolorum amet eaque assumenda
+                    voluptates.</p>
+            </div>
+        </div>
+        <br>
+        <!-- 4 * 3 Grids... SEE RESULT OF IT-->
+        <div class="row">
+            <div class="col-md-3 col-sm-3">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, dolorum amet eaque assumenda
+                    voluptates.</p>
+            </div>
+            <div class="col-md-3 col-sm-3">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, dolorum amet eaque assumenda
+                    voluptates.</p>
+            </div>
+            <div class="col-md-3 col-sm-3">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, dolorum amet eaque assumenda
+                    voluptates.</p>
+            </div>
+            <div class="col-md-3 col-sm-3">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, dolorum amet eaque assumenda
+                    voluptates.</p>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-md-6 col-sm-6">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, dolorum amet eaque assumenda
+                    voluptates, repellendus eos laborum in hic ipsa nostrum. Et consequatur officiis sed? Perspiciatis
+                    facilis atque molestiae voluptatum.</p>
+            </div>
+            <div class="col-md-6 col-sm-6">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, dolorum amet eaque assumenda
+                    voluptates.</p>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <!-- Jumbotron on top-->
+    <!-- Nav WE WILL DO LATER :)-->
+
+
+    <div style="height: 400px"></div> <!-- for increaing page length..-->
+    <!-- jQuery (necessary for Bootstrap's javascript plugins) -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below) or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
